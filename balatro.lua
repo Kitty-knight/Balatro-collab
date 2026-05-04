@@ -1,159 +1,151 @@
-SMODS.Atlas {
+local hearts_lc = SMODS.Atlas {
     key = "balatro_hearts_1",
     path = "balatro_hearts_1.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
-SMODS.Atlas {
+local hearts_hc = SMODS.Atlas {
     key = "balatro_hearts_2",
     path = "balatro_hearts_2.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
 
-SMODS.Atlas {
+local spades_lc = SMODS.Atlas {
     key = "balatro_spades_1",
     path = "balatro_spades_1.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
 
-SMODS.Atlas {
+local spades_hc = SMODS.Atlas {
     key = "balatro_spades_2",
     path = "balatro_spades_2.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
 
-SMODS.Atlas {
+local diamonds_lc = SMODS.Atlas {
     key = "balatro_diamonds_1",
     path = "balatro_diamonds_1.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
 
-SMODS.Atlas {
+local diamonds_hc = SMODS.Atlas {
     key = "balatro_diamonds_2",
     path = "balatro_diamonds_2.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
 
-SMODS.Atlas {
+local clubs_lc = SMODS.Atlas {
     key = "balatro_clubs_1",
     path = "balatro_clubs_1.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
 
-SMODS.Atlas {
+local clubs_hc = SMODS.Atlas {
     key = "balatro_clubs_2",
     path = "balatro_clubs_2.png",
     px = 71,
     py = 95,
-    atlas_table = "ASSET_ATLAS"
 }
 
 
 SMODS.DeckSkin {
     key = "balatro_hearts",
     suit = "Hearts",
+    loc_txt = {
+        ["en-us"] = "Balatro"
+    },
     palettes = {
         {
             key = 'lc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_hearts_1",
+            atlas = hearts_lc.key,
             pos_style = "collab"
         },
         {
             key = 'hc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_hearts_2",
+            atlas = hearts_hc.key,
             pos_style = "collab"
         }
-    },
-    loc_txt = {
-        ["en-us"] = "Balatro"
     },
 }
 
 SMODS.DeckSkin {
     key = "balatro_spades",
     suit = "Spades",
+    loc_txt = {
+        ["en-us"] = "Balatro"
+    },
     palettes = {
         {
             key = 'lc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_spades_1",
+            atlas = spades_lc.key,
             pos_style = "collab"
         },
         {
             key = 'hc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_spades_2",
+            atlas = spades_hc.key,
             pos_style = "collab"
         }
-    },
-    loc_txt = {
-        ["en-us"] = "Balatro"
     },
 }
 
 SMODS.DeckSkin {
     key = "balatro_diamonds",
     suit = "Diamonds",
+    loc_txt = {
+        ["en-us"] = "Balatro"
+    },
     palettes = {
         {
             key = 'lc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_diamonds_1",
+            atlas = diamonds_lc.key,
             pos_style = "collab"
         },
         {
             key = 'hc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_diamonds_2",
+            atlas = diamonds_hc.key,
             pos_style = "collab"
         }
-    },
-    loc_txt = {
-        ["en-us"] = "Balatro"
     },
 }
 
 SMODS.DeckSkin {
     key = "balatro_clubs",
     suit = "Clubs",
+    loc_txt = {
+        ["en-us"] = "Balatro"
+    },
     palettes = {
         {
             key = 'lc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_clubs_1",
+            atlas = clubs_lc.key,
             pos_style = "collab"
         },
         {
             key = 'hc',
             ranks = { "Jack", "Queen", "King" },
             display_ranks = { "Jack", "Queen", "King" },
-            atlas = "balatro_clubs_2",
+            atlas = clubs_hc.key,
             pos_style = "collab"
         }
-    },
-    loc_txt = {
-        ["en-us"] = "Balatro"
     },
 }

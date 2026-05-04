@@ -1,7 +1,7 @@
 {
 	"id": "BALXBAL",
 	"name": "Balatro Collab",
-	"author": ["Kitty (Kittyknight. on discord)"],
+	"author": ["Kitty (dottykitty on discord)"],
 	"description": "Finally, Balatro is collaborating with the hit indie game Balatro.",
 	"prefix": "balx",
 	"main_file": "balatro.lua",
